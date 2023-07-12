@@ -10,9 +10,12 @@
   border: none;
   cursor: pointer;
   transition: all 0.2s;
-  width: 100%;
 }
 
 .button:hover {
   background: #417200;
+}
+
+.fullwidth {
+  width: 100%;
 }

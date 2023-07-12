@@ -20,7 +20,7 @@ function Card () {
               </h4>
             </div>
           </div>
-          <Button>Adicionar ao carrinho</Button>
+          <Button fullwidth>Adicionar ao carrinho</Button>
         </div>
       </div>
     ))
