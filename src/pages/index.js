@@ -1,8 +1,12 @@
-import Subtitle from '@/components/Tipography/Subtitle';
-import Navbar from '@/components/Navbar';
 import Head from 'next/head';
+
+import styles from '@/styles/index.module.css';
+
+import Navbar from '@/components/Navbar';
 import Container from '@/components/Container';
 import Cards from '@/components/Cards/SaleCard';
+import Subtitle from '@/components/Tipography/Subtitle';
+
 
 export default function Home() {
   return (
@@ -17,13 +21,13 @@ export default function Home() {
         <Navbar />
       </div>
       <Container>
-        <div>
+        <div className={styles.session}>
           <Subtitle>Promoções</Subtitle>
-          <div>
+          <div className={styles.cardscontainer}>
             <Cards />
           </div>
         </div>
-        <div>
+        <div className={styles.session}>
           <Subtitle>Outros jogos</Subtitle>
         </div>
       </Container>
