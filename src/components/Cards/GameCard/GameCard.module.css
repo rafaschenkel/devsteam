@@ -40,6 +40,10 @@
   text-transform: uppercase;
 }
 
+.icon {
+  margin-left: 10px;
+}
+
 @media (max-width: 680px) {
   .gamecard {
     flex-direction: column;

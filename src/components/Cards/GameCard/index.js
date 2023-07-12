@@ -3,6 +3,7 @@ import styles from './GameCard.module.css';
 import Button from '@/components/Forms/Button';
 
 import gamecard from '@/json/gamecard.json';
+import { FiShoppingCart } from 'react-icons/fi';
 
 function GameCard () {
   return (
@@ -14,7 +15,7 @@ function GameCard () {
           <p className={styles.genre}>{game.genre}</p>
           <div className={styles.pricing}>
             <p className={styles.price}>R$ {game.price.toFixed(2).replace('.', ',')}</p>
-            <Button>Adicionar ao carrinho</Button>
+            <Button>Adicionar ao carrinho <FiShoppingCart className={styles.icon} size={20}/></Button>
           </div>
         </div>
       </div>
