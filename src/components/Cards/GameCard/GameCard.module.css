@@ -39,3 +39,19 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+@media (max-width: 680px) {
+  .gamecard {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .pricing {
+    flex-direction: column;
+  }
+}

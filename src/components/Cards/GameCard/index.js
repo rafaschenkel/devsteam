@@ -8,7 +8,7 @@ function GameCard () {
   return (
     gamecard.map((game, index) => (
       <div className={styles.gamecard} key={index}>
-        <Image src={game.img} alt={game.title} width={300} height={150} priority />
+        <Image className={styles.image} src={game.img} alt={game.title} width={300} height={150} priority />
         <div className={styles.info}>
           <h3 className={styles.title}>{game.title}</h3>
           <p className={styles.genre}>{game.genre}</p>

@@ -6,7 +6,7 @@ import Input from '../Forms/Input';
 function Navbar () {
   return (
     <nav className={styles.navbar}>
-      <Logo />
+      <Logo className={styles.logo}/>
       <div className={styles.search}>
         <Input placeholder="Buscar" type="text" fullwidth />
       </div>

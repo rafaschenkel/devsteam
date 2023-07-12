@@ -10,3 +10,13 @@
 .search {
   min-width: 400px;
 }
+
+@media (max-width: 680px) {
+  .navbar {
+    padding: 0 20px;
+  }
+
+  .search {
+    min-width: 100px;
+  }
+}
