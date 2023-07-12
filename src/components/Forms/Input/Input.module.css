@@ -1,0 +1,18 @@
+.input {
+  background: #316282;
+  color: #eee;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  border: none;
+  outline: 0;
+}
+
+.input::placeholder {
+  font-style: italic;
+  color: #C7C7C7;
+}
+
+.fullwidth {
+  width: 100%;
+}
