@@ -1,0 +1,20 @@
+[
+  {
+    "img": "/products/card/cod-mw.jpg",
+    "alt": "CoD - Modern Warfare",
+    "price": 199.90,
+    "discount": 30
+  },
+  {
+    "img": "/products/card/nfs-heat.jpg",
+    "alt": "NFS - Heat",
+    "price": 179.90,
+    "discount": 35
+  },
+  {
+    "img": "/products/card/rdr2.jpg",
+    "alt": "Read Dead Redemption 2",
+    "price": 209.90,
+    "discount": 40
+  }
+]

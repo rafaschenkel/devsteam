@@ -4,8 +4,9 @@ import styles from '@/styles/index.module.css';
 
 import Navbar from '@/components/Navbar';
 import Container from '@/components/Container';
-import Cards from '@/components/Cards/SaleCard';
+import Card from '@/components/Cards/SaleCard';
 import Subtitle from '@/components/Tipography/Subtitle';
+import GameCard from '@/components/Cards/GameCard';
 
 
 export default function Home() {
@@ -24,11 +25,14 @@ export default function Home() {
         <div className={styles.session}>
           <Subtitle>Promoções</Subtitle>
           <div className={styles.cardscontainer}>
-            <Cards />
+            <Card />
           </div>
         </div>
         <div className={styles.session}>
           <Subtitle>Outros jogos</Subtitle>
+          <div className={styles.gamecardcontainer}>
+            <GameCard />
+          </div>
         </div>
       </Container>
     </>

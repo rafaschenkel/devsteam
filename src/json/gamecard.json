@@ -1,0 +1,26 @@
+[
+  {
+    "img": "/products/list/ets2.jpg",
+    "title": "Euro Truck Simulator 2",
+    "genre": "Simulação",
+    "price": 19.90
+  },
+  {
+    "img": "/products/list/nfs-undercover.jpg",
+    "title": "Need For Speed - Undercover",
+    "genre": "Corrida",
+    "price": 9.90
+  },
+  {
+    "img": "/products/list/re4.jpg",
+    "title": "Resident Evil 4 - Remake",
+    "genre": "Terror, Tiro, Ação",
+    "price": 69.90
+  },
+  {
+    "img": "/products/list/spider-man-mm.jpg",
+    "title": "Spider Man - Miles Morales",
+    "genre": "Aventura, Ação",
+    "price": 59.90
+  }
+]

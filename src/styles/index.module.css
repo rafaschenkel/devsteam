@@ -9,3 +9,10 @@
   gap: 8px;
   margin: 20px 0;
 }
+
+.gamecardcontainer {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
