@@ -1,5 +1,8 @@
-import Navbar from '@/components/Navbar'
-import Head from 'next/head'
+import Subtitle from '@/components/Tipography/Subtitle';
+import Navbar from '@/components/Navbar';
+import Head from 'next/head';
+import Container from '@/components/Container';
+import Cards from '@/components/Cards/SaleCard';
 
 export default function Home() {
   return (
@@ -13,6 +16,17 @@ export default function Home() {
       <div>
         <Navbar />
       </div>
+      <Container>
+        <div>
+          <Subtitle>Promoções</Subtitle>
+          <div>
+            <Cards />
+          </div>
+        </div>
+        <div>
+          <Subtitle>Outros jogos</Subtitle>
+        </div>
+      </Container>
     </>
-  )
+  );
 }

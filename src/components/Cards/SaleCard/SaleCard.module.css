@@ -1,0 +1,54 @@
+.salecard {
+  background: linear-gradient(180deg, #19587B 0%, #2B87AE 100%);
+  width: 250px;
+}
+
+.info {
+  padding: 20px;
+  margin: 0;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pricecard {
+  display: flex;
+  margin: 20px 0;
+}
+
+.discount {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  padding: 5px 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #BEEB14;
+  background: #4C6B22;
+}
+
+.prices {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background: #344654;
+  padding: 5px;
+}
+
+.fullprice {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  color: #A8A8A8;
+}
+
+.discountprice {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #BEEB14;
+}
