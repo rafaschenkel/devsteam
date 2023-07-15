@@ -1,0 +1,42 @@
+.menu {
+  background: #364A63;
+  width: 350px;
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.options {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.priceline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  color: #BEEB14;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .menu {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menu {
+    width: 250px;
+  }
+}

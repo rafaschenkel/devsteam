@@ -1,0 +1,31 @@
+.option {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.img {
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.price {
+  color: #BEEB14;
+}
+
+.remove {
+  color: #f00;
+  font-style: italic;
+  font-size: 12px;
+  cursor: pointer;
+  padding-top: 10px;
+}

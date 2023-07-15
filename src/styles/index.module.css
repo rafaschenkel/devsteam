@@ -1,3 +1,7 @@
+.nav {
+  background-color: #171A21;
+}
+
 .session {
   margin: 80px 0;
 }
@@ -24,3 +28,4 @@
     gap: 20px;
   }
 }
+
